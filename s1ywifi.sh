@@ -1,7 +1,7 @@
 #!/bin/bash
 
 logo () {
-echo -e "$(tput setaf 1)
+echo -e "$(tput setaf 35)
 ███████╗ ██╗██╗   ██╗███████╗    ██╗    ██╗██╗███████╗██╗    ██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ 
 ██╔════╝███║╚██╗ ██╔╝██╔════╝    ██║    ██║██║██╔════╝██║    ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
 ███████╗╚██║ ╚████╔╝ ███████╗    ██║ █╗ ██║██║█████╗  ██║    ███████║███████║██║     █████╔╝ █████╗  ██████╔╝
@@ -22,9 +22,9 @@ sleep 0.4
 clear
 }
 option () {
-echo -e "$(tput setaf 3) \n               A lazy script for aircrack-ng, wifi hacking.
+echo -e "$(tput setaf 1) \n               A script for wifi hacking.
         The script only Works if your wifi adapter has monitor mode."
-echo -e "$(tput setaf 2)\n                       Developed by Sandesh (3xploitGuy)"
+echo -e "$(tput setaf 35)\n                       Developed by s1y ;)"
 echo -e "\n$(tput setaf 3)                        [ Select Option To Continue ]\n\n"
 echo "      $(tput setaf 1)[$(tput setaf 4)1$(tput setaf 1)] $(tput setaf 2)Wifi Hacking"
 echo "      $(tput setaf 1)[$(tput setaf 4)2$(tput setaf 1)] $(tput setaf 2)Wifi Jammer"
@@ -68,10 +68,10 @@ hacking
 airodump-ng --bssid $bssid --channel $ch wlan0mon
 aireplay-ng -0 0 -a $bssid wlan0mon 
     ;;
-  3) echo -e "$(tput setaf 1)\n\033[1mThank You for using the script,\nHappy Hacking :)\n"
+  3) echo -e "$(tput setaf 35)\n\033[1mThank You for using the script,\nHappy Hacking :)\n"
      break;
     ;;
-  *) echo -e "$(tput setaf 1)Please select correct option.$(tput setaf 7)"
+  *) echo -e "$(tput setaf 35)Please select correct option.$(tput setaf 7)"
     ;;
 esac
 done
