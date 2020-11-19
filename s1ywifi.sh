@@ -22,7 +22,7 @@ sleep 0.4
 clear
 }
 option () {
-echo -e "$(tput setaf 1) \n               A script for wifi hacking.
+echo -e "$(tput setaf 1) \n                                A script for wifi hacking.
                          The script only Works if your wifi adapter has monitor mode."
 echo -e "$(tput setaf 35)\n                    Developed by s1y ;)"
 echo -e "\n$(tput setaf 45)               [ Select Option To Continue ]\n\n"
