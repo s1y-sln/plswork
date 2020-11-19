@@ -23,9 +23,9 @@ clear
 }
 option () {
 echo -e "$(tput setaf 1) \n               A script for wifi hacking.
-        The script only Works if your wifi adapter has monitor mode."
-echo -e "$(tput setaf 35)\n                       Developed by s1y ;)"
-echo -e "\n$(tput setaf 3)                   [ Select Option To Continue ]\n\n"
+                         The script only Works if your wifi adapter has monitor mode."
+echo -e "$(tput setaf 35)\n                    Developed by s1y ;)"
+echo -e "\n$(tput setaf 45)               [ Select Option To Continue ]\n\n"
 echo "      $(tput setaf 45)[$(tput setaf 1)1$(tput setaf 45)] $(tput setaf 1)Wifi Hacking"
 echo "      $(tput setaf 45)[$(tput setaf 1)2$(tput setaf 45)] $(tput setaf 45)Wifi Jammer"
 echo -e "      $(tput setaf 45)[$(tput setaf 1)3$(tput setaf 45)] $(tput setaf 1)Exit\n\n$(tput setaf 7)"
